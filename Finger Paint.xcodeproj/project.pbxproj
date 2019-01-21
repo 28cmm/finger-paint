@@ -15,6 +15,8 @@
 		2806022421F2A1FF00DCD2F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2806022321F2A1FF00DCD2F5 /* main.m */; };
 		2806022E21F2A1FF00DCD2F5 /* Finger_PaintTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2806022D21F2A1FF00DCD2F5 /* Finger_PaintTests.m */; };
 		2806023921F2A1FF00DCD2F5 /* Finger_PaintUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2806023821F2A1FF00DCD2F5 /* Finger_PaintUITests.m */; };
+		28CA0E9221F5818600DBC6C5 /* LineSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CA0E9121F5818600DBC6C5 /* LineSegment.m */; };
+		28CA0E9521F581F400DBC6C5 /* Draw.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CA0E9421F581F400DBC6C5 /* Draw.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		2806023421F2A1FF00DCD2F5 /* Finger PaintUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Finger PaintUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2806023821F2A1FF00DCD2F5 /* Finger_PaintUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Finger_PaintUITests.m; sourceTree = "<group>"; };
 		2806023A21F2A1FF00DCD2F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28CA0E9021F5818600DBC6C5 /* LineSegment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LineSegment.h; sourceTree = "<group>"; };
+		28CA0E9121F5818600DBC6C5 /* LineSegment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LineSegment.m; sourceTree = "<group>"; };
+		28CA0E9321F581F400DBC6C5 /* Draw.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Draw.h; sourceTree = "<group>"; };
+		28CA0E9421F581F400DBC6C5 /* Draw.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Draw.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,10 @@
 				2806021721F2A1FE00DCD2F5 /* ViewController.h */,
 				2806021821F2A1FE00DCD2F5 /* ViewController.m */,
 				2806021A21F2A1FE00DCD2F5 /* Main.storyboard */,
+				28CA0E9021F5818600DBC6C5 /* LineSegment.h */,
+				28CA0E9121F5818600DBC6C5 /* LineSegment.m */,
+				28CA0E9321F581F400DBC6C5 /* Draw.h */,
+				28CA0E9421F581F400DBC6C5 /* Draw.m */,
 				2806021D21F2A1FF00DCD2F5 /* Assets.xcassets */,
 				2806021F21F2A1FF00DCD2F5 /* LaunchScreen.storyboard */,
 				2806022221F2A1FF00DCD2F5 /* Info.plist */,
@@ -262,9 +272,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28CA0E9521F581F400DBC6C5 /* Draw.m in Sources */,
 				2806021921F2A1FE00DCD2F5 /* ViewController.m in Sources */,
 				2806022421F2A1FF00DCD2F5 /* main.m in Sources */,
 				2806021621F2A1FE00DCD2F5 /* AppDelegate.m in Sources */,
+				28CA0E9221F5818600DBC6C5 /* LineSegment.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
